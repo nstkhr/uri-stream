@@ -11,7 +11,7 @@
     "test"
   ],
   "author": "takahiro.nasu@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.409.0",
     "debug": "^4.1.1",

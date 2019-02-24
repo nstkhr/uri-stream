@@ -5,7 +5,7 @@ npm module that creating stream to read/write from/to a URI.
 
 Supported protocol:
 
-| Protocol | Suppprt    |
+| Protocol | Operation  |
 |:---------|------------|
 | HTTP     | Read |
 | HTTPS    | Read |
@@ -13,7 +13,7 @@ Supported protocol:
 | FTP      | Read/Write |
 | FILE     | Read/Write |
 
-## install
+## Install
 
 ```
 $ npm install nstkhr/get-stream
@@ -28,6 +28,10 @@ uriStream
   .createReadStream('file:///path/to/file')
   .pipe(
     uriStream
-      .createWriteStram('s3://bucket-name/path/to/object'
+      .createWriteStream('s3://bucket-name/path/to/object'
   ));
 ```
+
+## License
+
+MIT
