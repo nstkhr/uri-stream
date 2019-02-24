@@ -1,0 +1,21 @@
+{
+  "name": "@nstkhr/uri-stream",
+  "version": "1.0.0",
+  "description": "Create read/write stream for URI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint *.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "author": "takahiro.nasu@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.409.0",
+    "debug": "^4.1.1",
+    "ftp": "^0.3.10",
+    "request": "^2.88.0"
+  }
+}

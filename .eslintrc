@@ -1,0 +1,31 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+    "rules": {
+        "semi": "error",
+        "arrow-body-style": "warn",
+        "arrow-parens": "warn",
+        "arrow-spacing": "warn",
+        "generator-star-spacing": "warn",
+        "no-useless-constructor": "warn",
+        "no-unused-vars": ["warn", {"argsIgnorePattern": "^_" }],
+        "no-var": "error",
+        "object-shorthand": "warn",
+        "prefer-arrow-callback": "warn",
+        "prefer-const": "warn",
+        "prefer-rest-params" : "error",
+        "prefer-spread": "error",
+        "require-yield": "error",
+        "template-curly-spacing": "error",
+        "yield-star-spacing": "error",
+        "no-mixed-spaces-and-tabs": "warn",
+        "no-console": "off"
+    }
+}
